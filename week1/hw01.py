@@ -74,7 +74,6 @@ def largest_factor(n):
             return i
 
 
-
 def hailstone(n):
     """Print the hailstone sequence starting at n and return its
     length.
@@ -99,10 +98,10 @@ def hailstone(n):
     if n == 1:
         return 1
     elif n % 2 == 0:
-        return 1 + hailstone(n //2 )
+        return 1 + hailstone(n // 2)
     else:
-        return 1 + hailstone( 3 * n + 1)
-                
+        return 1 + hailstone(3 * n + 1)
+
 
 # MODIFY ARGUMENTS BELOW TO TEST ANSWER
 if __name__ == "__main__":
