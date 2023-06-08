@@ -107,3 +107,8 @@ def hailstone(n):
 if __name__ == "__main__":
     import doctest
     doctest.run_docstring_examples(hailstone, globals())
+# >> > def falling(n, k):
+# ... if k == 0:
+# ... return 1
+# ... else:
+# ... return n * falling(n-1, k-1)
